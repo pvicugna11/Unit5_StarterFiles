@@ -933,6 +933,8 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: 5621078984215237748, guid: c9d6852cf646d634c9970e08ff86eb52, type: 2}
     value: {fileID: 963194229}
+  - key: {fileID: -7130097661342757241, guid: c9d6852cf646d634c9970e08ff86eb52, type: 2}
+    value: {fileID: 1846425619}
   m_ExposedReferences:
     m_References:
     - b24314708883be04491d5a9a9f607ace: {fileID: 0}
@@ -1700,7 +1702,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0.0040231207, y: -0.9451929, z: 0.011632757, w: 0.7071068}
+  m_LocalRotation: {x: -0.0031902296, y: -0.74951327, z: 0.009224473, w: 0.7071068}
   m_LocalPosition: {x: 1.1303854, y: 0.48590314, z: 0.76124287}
   m_LocalScale: {x: 1, y: 1, z: 1.0000001}
   m_Children: []
@@ -3014,6 +3016,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1846425618}
   - component: {fileID: 1846425617}
+  - component: {fileID: 1846425619}
   m_Layer: 0
   m_Name: CM vcam1
   m_TagString: Untagged
@@ -3071,6 +3074,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!95 &1846425619
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846425616}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1883627605
 PrefabInstance:
   m_ObjectHideFlags: 0
